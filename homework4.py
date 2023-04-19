@@ -18,3 +18,12 @@ dictionary['age'].append(age)
 dictionary['adress'].append(adress)
 print(dictionary)
 
+
+employee = {
+    'name': 'Kelly',
+    'age': 25,
+    'salary': 8000,
+    'city': 'New york'
+}
+employee.pop('name', 'salary')
+print(employee)

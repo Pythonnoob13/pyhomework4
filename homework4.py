@@ -54,7 +54,7 @@ def checker():
             final_toppings.append(requested_topping)
         elif requested_topping not in available_toppings:
             answer = input(f'we dont have {requested_topping} would u like a pizza without it? Yes/No - ').upper()
-            if answer == answer == 'NO':
+            if answer == 'NO':
                 print('we are sorry, see u next time!')
                 break
             elif answer == 'YES':
